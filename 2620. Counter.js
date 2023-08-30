@@ -4,8 +4,8 @@
  */
 
 var createCounter = n =>{
-    let count = n , i=-1
-    return () => count + ++i;
+    let counter = n , i=-1
+    return () => counter + ++i;
 }
 
 /** 
